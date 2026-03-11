@@ -1,0 +1,14 @@
+{
+  "port": 3995,
+  "basePath": "/lobster-kingdom",
+  "sessionsDir": "/Users/shanjianyeren/.openclaw/agents/main/sessions",
+  "refreshInterval": 30000,
+  "levels": [
+    { "name": "虾米", "minTokens": 0, "size": 16, "color": "#888888" },
+    { "name": "小虾", "minTokens": 1000000, "size": 20, "color": "#4CAF50" },
+    { "name": "中虾", "minTokens": 10000000, "size": 26, "color": "#2196F3" },
+    { "name": "大虾", "minTokens": 50000000, "size": 32, "color": "#9C27B0" },
+    { "name": "虾王", "minTokens": 100000000, "size": 40, "color": "#F44336" },
+    { "name": "虾皇", "minTokens": 200000000, "size": 48, "color": "#FFD700" }
+  ]
+}
