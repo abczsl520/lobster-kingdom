@@ -189,7 +189,7 @@ app.use((req, res, next) => {
 
 ## WebSocket (Future)
 
-WebSocket support is planned for real-time updates. Track progress in [Issue #1](https://github.com/yourusername/lobster-kingdom/issues/1).
+WebSocket support is planned for real-time updates. Track progress in [Issue #1](https://github.com/abczsl520/lobster-kingdom/issues/1).
 
 ## Client Libraries
 

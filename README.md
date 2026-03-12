@@ -63,7 +63,7 @@ Perfect for:
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/lobster-kingdom.git
+git clone https://github.com/abczsl520/lobster-kingdom.git
 cd lobster-kingdom
 
 # Install dependencies
@@ -305,7 +305,7 @@ We welcome contributions! Please see [CONTRIBUTING.md](CONTRIBUTING.md) for guid
 
 ## 🐛 Bug Reports
 
-Found a bug? Please [open an issue](https://github.com/yourusername/lobster-kingdom/issues) with:
+Found a bug? Please [open an issue](https://github.com/abczsl520/lobster-kingdom/issues) with:
 
 - Browser and version
 - Node.js version
@@ -325,7 +325,7 @@ MIT License - see [LICENSE](LICENSE) for details.
 
 ## ⭐ Star History
 
-[![Star History Chart](https://api.star-history.com/svg?repos=yourusername/lobster-kingdom&type=Date)](https://star-history.com/#yourusername/lobster-kingdom&Date)
+[![Star History Chart](https://api.star-history.com/svg?repos=abczsl520/lobster-kingdom&type=Date)](https://star-history.com/#abczsl520/lobster-kingdom&Date)
 
 ---
 
@@ -333,6 +333,6 @@ MIT License - see [LICENSE](LICENSE) for details.
 
 **Made with 🦞 by the community**
 
-[Report Bug](https://github.com/yourusername/lobster-kingdom/issues) • [Request Feature](https://github.com/yourusername/lobster-kingdom/issues) • [Discussions](https://github.com/yourusername/lobster-kingdom/discussions)
+[Report Bug](https://github.com/abczsl520/lobster-kingdom/issues) • [Request Feature](https://github.com/abczsl520/lobster-kingdom/issues) • [Discussions](https://github.com/abczsl520/lobster-kingdom/discussions)
 
 </div>
