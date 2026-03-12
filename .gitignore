@@ -1,6 +1,7 @@
 node_modules/
 *.log
 channel-names.json
+config.json
 .DS_Store
 TASK.md
 *.bak
