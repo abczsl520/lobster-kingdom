@@ -1,0 +1,33 @@
+{
+  "name": "lobster-kingdom",
+  "version": "1.0.0",
+  "description": "Real-time visualization game displaying Discord channel activity as pixel-art lobsters",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "keywords": [
+    "visualization",
+    "discord",
+    "pixel-art",
+    "game",
+    "canvas",
+    "real-time",
+    "token-tracking"
+  ],
+  "author": "",
+  "license": "MIT",
+  "type": "commonjs",
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "dependencies": {
+    "compression": "^1.8.1",
+    "express": "^5.2.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/lobster-kingdom.git"
+  }
+}

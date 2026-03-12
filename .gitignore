@@ -1,0 +1,7 @@
+node_modules/
+lobster.log
+channel-names.json
+config.local.json
+.DS_Store
+*.bak
+data/
