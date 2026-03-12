@@ -1,0 +1,52 @@
+name: CI
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        node-version: [16.x, 18.x, 20.x, 22.x]
+
+    steps:
+    - uses: actions/checkout@v4
+
+    - name: Use Node.js ${{ matrix.node-version }}
+      uses: actions/setup-node@v4
+      with:
+        node-version: ${{ matrix.node-version }}
+
+    - name: Install dependencies
+      run: npm ci
+
+    - name: Syntax check
+      run: |
+        node -c server.js
+        node -c routes/api.js
+        node -c services/session-parser.js
+        for f in public/js/*.js; do node -c "$f" || exit 1; done
+
+    - name: Start server (demo mode)
+      run: |
+        node server.js &
+        sleep 3
+
+    - name: Health check
+      run: |
+        curl -f http://localhost:3995/health
+
+    - name: API check
+      run: |
+        curl -f http://localhost:3995/api/lobsters
+        curl -f http://localhost:3995/api/stats
+
+    - name: Security headers check
+      run: |
+        curl -sI http://localhost:3995/ | grep -q "X-Content-Type-Options"
+        curl -sI http://localhost:3995/ | grep -q "X-Frame-Options"
+        curl -sI http://localhost:3995/ | grep -q "X-XSS-Protection"
